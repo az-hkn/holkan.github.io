@@ -12,13 +12,17 @@
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
-  
-  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
-  <link href="./assets/favicon.ico" rel="icon">
 
-  <title>Title page</title>  
+  <link href="./assets/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="./assets/images/HF.jpg" rel="icon">
+
+  <title>Holkan's Portfolio</title>  
 
 <link href="./main.97292821.css" rel="stylesheet"></head>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./personalized.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<link href="./Flip.css" rel="stylesheet"></head>
 
 <body>
 
@@ -37,14 +41,16 @@
 
       <div class="navbar-collapse">
         <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a href="./index.html#contact-section-container" title="" class="anchor-link">Contact Us</a></li>
-            <li>
+        <ul class="nav navbar-nav navbar-left">
+            <li><a href="./index.html#about" title="" class="anchor-link btnh ">About</a></li>
+            <li><a href="./index.html#showcase" title="" class="anchor-link btnh ">Projects</a></li>
+            <li><a href="./index.html#contact" title="" class="anchor-link btnh ">Contact me</a></li>
+            <!-- <li>
                 <p>
                     <a href="./components.html" class="btn btn-default navbar-btn" >Components</a>
                 </p>
             </li>
-
+ -->
 
         </ul>
 
@@ -56,14 +62,18 @@
 
 
 <!-- Add your site or app content here -->
-<div class="background-image-container white-text-container" style="background-image: url('./assets/images/img-04.jpg')">
+<div class=" background-image-container white-text-container containh" style="background-image: url('./assets/images/dg.jpg')">
     <div class="overlay"></div>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12">
-                <h1>Holkan Jimenez</h1>
-                <p class="">PERSONAL PORTFOLIO</p>
-                <a href="#contact-section-container" class="btn btn-primary btn-lg anchor-link" title="">Get in touch</a>
+            <div class="col-xs-12 bg-secondary">
+                <div class="text-center">
+                <img src="./assets/images/hkn.jpg" class="rounded-Profile" alt="Avatar">
+                </div>
+
+                <h1><p class="animated bounceIn Name font">I'm Holkan</p></h1>
+                <p class=""></p>
+                <a href="./index.html#contact" class="btn btn-primary btn-lg anchor-link" title="">Get in touch</a>
             </div>
         </div>
     </div>
@@ -73,101 +83,113 @@
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Vivamus laoreet</h2>
+                <h2 class="text-center font">Skills & Experience</h2>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-4">
                 <div class="fa-container">
-                    <i class="fa fa-comment-o fa-3x" aria-hidden="true"></i>
+                    <i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
                 </div>
-                <h3 class="text-center">Consectetur</h3>
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident.</p>
+                <h3 class="text-center">WEB DESIGN AND DEVELOPEMENT</h3>
+                <p>If you want modern designs to make any website look awesome</p>
             </div>
 
             <div class="col-xs-12 col-md-4">
                 <div class="fa-container">
-                    <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
+                    <i class="fa fa-user-o fa-3x" aria-hidden="true"></i>
                 </div>
-                <h3 class="text-center">Malesuada</h3>
-                <p>Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+                <h3 class="text-center">UX/UI</h3>
+                <p> A simple user-friendly design that makes a quality website defined by the experience of the user..</p>
             </div>
+
+
             <div class="col-xs-12 col-md-4">
                 <div class="fa-container">
-                    <i class="fa fa-bell-o fa-3x" aria-hidden="true"></i>
+                    <i class="fa fa-signal fa-3x" aria-hidden="true"></i>
                 </div>
-                <h3 class="text-center">Phasellus</h3>
-                <p> Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat.</p>
+                <h3 class="text-center">RESPONSIVE DESIGN</h3>
+                <p>All the designs works for both mobile phone and desktop.</p>
             </div>
+
         </div>
+
     </div>
 </div>
 
-<div class="section-container section-half-background-image-container">
+<div class="section-container section-half-background-image-container" id="about">
     <div class="image-column" style="background-image: url('./assets/images/img-01.jpg')"></div>
     <div class="container">
-        <div class="row">
-            <div class="section-label reveal">
-                <p>Coworking</p>
-            </div>
-            <div class="col-md-6 col-md-offset-6 text-column">
-                <h2>Dui augue orci</h2>
-                <h3>Lorem ipsum</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit. Nam eu laoreet velit. Vivamus laoreet, sem nec scelerisque
-                    elementum, dui augue aliquet urna, ut bibendum purus erat ut massa. Mauris diam orci, feugiat a turpis
-                    et, congue accumsan risus. Nulla malesuada leo sodales, auctor augue quis, condimentum lacus. Phasellus
-                    sed sollicitudin quam, a bibendum urna.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus «
-                    ut lacus » tellus. In pretium lobortis blandit.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
+        <div class="row ">
+<!--             <div class="section-label reveal">
+                <p>About Me</p>
+            </div> -->
+            <div class="col-md-6 col-md-offset-6 text-column font">
+                <h2>About me</h2>
+                <h3 class="font">Hi,</h3>
+                <p>I am a Telematics Enginner with a minimalist style who wants to grant the user the best experience possible by having clean user interfaces that align with the company's goals. </p>
+                <p>I'm always looking for ways to grow improving technical skills, gaining work experience, or doing some  online courses </p>
+                <p>In my free time I like to play soccer, videogames and workout. </p>
 
             </div>
+           <!--  <div class="col-md-6 col-md-offset-6 text-column">
+                <a href="#contact-section-container" class="btn btn-info btn-sm" title="">Download Resume</a>
+            </div> -->
         </div>
     </div>
 </div>
 
 
 
-<div class="section-container">
+
+
+<div class="section-container" id="showcase">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-md-12 section-container-spacer">
-                <h2 class="text-center">Consectetur adipiscing</h2>
+                <h2 class="text-center font">Showcase</h2>
             </div>
         </div>
         <div class="row">
+
+
+
+       <div class="col-xs-12 col-md-4">
+       <a href="./criptomonedas-FINALIZADO/index.html"><img src="./assets/images/Crypto.png" alt="" class="img-responsive imgh"></a>
+                <h3 class="text-center font">Quote Cryptocurrencies</h3>
+                
+                <p>You will be able to quote 100 different cryptocurrencies and compare values with your own currency </p>    
+                <b> Used: </b>
+                <p> Call REST API , using Classes and Async/Await + Fetch API </p>
+       </div>
+
             <div class="col-xs-12 col-md-4">
-                <img src="./assets/images/img-02.jpg" alt="" class="img-responsive">
-                <h3 class="text-center">Consectetur</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
+                <a href="./eventos-FINALIZADO/index.html"><img src="./assets/images/Events.png" alt="" class="img-responsive"></a>
+                <h3 class="text-center font">Events Finder</h3>
+                <p>You will be able to find real life events searching by name or city </p>
+                <b> Used: </b>
+                <p> Call REST API , using Classes and Async/Await + Fetch API </p>
+
             </div>
 
             <div class="col-xs-12 col-md-4">
-                <img src="./assets/images/img-03.jpg" alt="" class="img-responsive">
-                <h3 class="text-center">Malesuada</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
-            </div>
-            <div class="col-xs-12 col-md-4">
-                <img src="./assets/images/img-04.jpg" alt="" class="img-responsive">
-                <h3 class="text-center">Phasellus</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor. Phasellus ut
-                    lacus tellus. In pretium lobortis blandit.</p>
+                <a href="./maps-FINALIZADO/index.html"><img src="./assets/images/Gas.png" alt="" class="img-responsive"></a>
+
+                <h3 class="text-center font">Gas station in Mexico</h3>
+                <p>Find official gas stations in Mexico and look at their prices searching and filtering by location</p>
+                <b> Used: </b>
+                <p> Call REST API , using Classes and Async/Await + Fetch API </p>
+
             </div>
         </div>
-    </div>
-</div>
+   </div>
+        </div>           
 
-<div class="">
+<!-- Rotating card -->
+
+
+
+<!-- <div class="">
     <div class='container-fluid'>
         <div class="row map-container">
             <div id="map"></div>
@@ -175,33 +197,34 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
                         <h3>Phone</h3>
-                        <p>+ 123 45 67 890</p>
+                        <p>+48 518167275</p>
+                        <p>+52 5516778511</p>
 
                         <h3>E-mail</h3>
-                        <p>hello@email.com</p>
+                        <p>holkan@outlook.es</p>
 
                     </div>
 
                     <div class="col-xs-12 col-sm-6">
                         <h3>Address</h3>
-                        <p>42 rue rouelle 75015, Paris</p>
+                        <p>Ostobramska, Warsaw</p>
 
-                        <h3>Open hours</h3>
-                        <p>Mon - Fri : 9AM - 5PM</p>
+                        <h3>Available:</h3>
+                        <p>Mon - Fri : 9AM - 6PM</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-
+<!-- 
 <div class="section-container" id="contact-section-container">
     <div class="container contact-form-container">
         <div class="row">
             <div class="col-xs-12 col-md-offset-2 col-md-8">
                 <div class="section-container-spacer">
-                    <h2 class="text-center">Get in touch</h2>
+                    <h2 class="text-center">Write me</h2>
                 </div>
                 <form action="">
                     <div class="row">
@@ -221,80 +244,49 @@
                         <textarea class="form-control" rows="3" placeholder="Enter your message"></textarea>
                     </div>
 
-                    <div class="form-group">
-                        <label class="checkbox-inline">
-                            <input type="checkbox" id="inlineCheckbox1" value="option1">Email me a copy
-                        </label>
-                        <label class="checkbox-inline">
-                            <input type="checkbox" id="inlineCheckbox2" value="option2">I am a human
-                        </label>
-                    </div>
 
-                    <button type="submit" class="btn btn-primary">Send message</button>
+                    <button type="submit" class="btn btn-primary bkg">Send message</button>
                     <a href="" class="btn btn-default">Reset</a>
                 </form>
             </div>
         </div>
     </div>
 </div>
+ -->
 
-
-<script>
+<!-- <script>
 document.addEventListener("DOMContentLoaded", function (event) {
     
   googleMapInit(); 
   scrollToAnchor();
   scrollRevelation('reveal');
 });
-</script>
+</script> -->
 
-<footer class="footer-container white-text-container">
-    <div class="container">
+<footer class="footer-container white-text-container bkgh" id="contact">
+    <div class="container bkgh">
         <div class="row">
-                <div class="col-md-4">
-                    <h4>About us</h4>
+              <!--   <div class="col-md-4">
+                    <h4>About Holkan</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet consectetur dolor</p>
+                </div> -->
+
+                <div class="col-md-12" style="text-align: center;">
+                    <h4 class=" animated infinite flash font">Contact me:</h4>
+                    <div class="fa-container">
+                             <p class="" aria-hidden="true">Mail: holkan@outlook.es</p>               
+                            <a href="https://www.linkedin.com/in/holkan-jimenez/" class="fa-icon fa-3x btn-link btn-linkedin" title="">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+                          
+                    </div>
+                   
                 </div>
 
-                <div class="col-md-4">
-                    <h4>Do you like ? Share this !</h4>
-                    <div>
-                        <p>
-                            <a href="https://www.twitter.com" class="fa-icon" title="">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                            <a href="https://www.facebook.com" class="fa-icon" title="">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
-                            <a href="https://www.linkedin.com" class="fa-icon" title="">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                        </p>
-                    </div>
-                    <div>
-                        <p><small>© Untitled | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></small></p>
-                    </div>
-
-                </div>
-
-                <div class="col-md-4">
-                        
-                    <h4>Subscribe to newsletter</h4>
-                    
-                    <div class="form-group">
-                        <div class="input-group">
-                            <input type="text" class="form-control footer-input-text">
-                            <div class="input-group-btn">
-                                <button type="button" class="btn btn-default btn-newsletter ">OK</button>
-                            </div>
-                        </div>
-                        
-                        
-                    </div>
-                </div>
+               
         </div>
     </div>
 </footer>
+<script type="text/javascript" src="./main.faaf51f9.js"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function (event) {
@@ -303,4 +295,5 @@ document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 
 
-<script type="text/javascript" src="./main.faaf51f9.js"></script>
+
+

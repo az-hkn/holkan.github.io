@@ -1,0 +1,61 @@
+.rounded-Profile {
+  border-radius: 50%;
+  border-color: #61b5cc;
+  background-color: #61b5cc;
+}
+
+.containh {
+    padding: 6% 0;
+}
+.Hi {
+    padding: 6% 0;
+}
+
+.Name{
+font-size: 75%;        
+}
+.font{
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+h2:after{
+	content: "";
+	background-color: #539bc1;
+	display: block;
+}
+
+.btnh{
+	cursor: pointer;
+	opacity: 1;
+}
+.btnh:after{
+	content: "";
+	background-color: #539bc1;
+	display: block;
+	height: 3px;
+	width: 100%;
+}
+
+.btnh:hover {
+	opacity: 0.8
+}
+.bkgh{
+	background-color:#539bc1;
+}
+
+.btn-primary{
+		background-color:#539bc1;
+}
+
+.btn-link{
+	  background: #084461;
+	  color: #fff;
+	  border-radius: 10%;
+}
+.btn-linkedin:active, .btn-linkedin:hover {
+	  background: #8acfc5;
+	  color: #fff;
+	  border-radius: 10%;
+
+	}
