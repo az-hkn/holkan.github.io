@@ -18,17 +18,17 @@
 
   <title>Holkan's Portfolio</title>  
 
-<link href="./main.97292821.css" rel="stylesheet"></head>
+<link href="./css/main.97292821.css" rel="stylesheet"></head>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="./personalized.css">
+<link rel="stylesheet" type="text/css" href="./css/personalized.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-<link href="./Flip.css" rel="stylesheet"></head>
+<link href="./css/Flip.css" rel="stylesheet"></head>
 
 <body>
 
  <!-- Add your content of header -->
 <header>
-  <nav class="navbar navbar-inverse navbar-fixed-top ">
+  <nav class="navbar navbar-inverse navbar-fixed-top font">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed">
@@ -64,22 +64,16 @@
 
  -->
 <!-- Add your site or app content here -->
-<div class=" background-image-container white-text-container containh " style="background-image: url('./assets/images/img-04.jpg')">
+<div class=" background-image-container white-text-container containh bg-img" style="background-image: url('./assets/images/img-04.jpg')">
 
-    <div class="overlay overh">
-
-
-    </div>
+    <div class="overlay overh"></div>
+    
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 bg-secondary">
-                <div class="text-center">
-                <img src="./assets/images/hkn.jpg" class="rounded-Profile" alt="Avatar">
-                </div>
-
+            <div class="col-xs-12 ">
+                <img src="./assets/images/hkn.jpg" class="rounded-Profile" alt="Avatar">           
                 <h1><p class="animated bounceIn Name font">I'm Holkan</p></h1>
-                <p class=""></p>
-                <a href="./index.html#contact" class="btn btn-primary btn-lg anchor-link" title="">Get in touch</a>
+                <a href="./index.html#contact" class="btn btn-primary btn-lg anchor-link" title="">Get in touch </a>
             </div>
         </div>
     </div>
@@ -97,35 +91,41 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2 col-xs-3 fade about">
                 <p class="text-center p-skills">C ++</p>           
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2  col-xs-3 fade about">
                 <p class="text-center p-skills">JavaScript</p>            
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2 col-xs-3 fade about">
                 <p class="text-center p-skills">C</p>            
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2 col-xs-3 fade about">
                 <p class="text-center p-skills">Java</p> 
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2 col-xs-3 fade about">
                 <p class="text-center p-skills">HTML</p> 
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2 col-xs-3 fade about">
                 <p class="text-center p-skills">CSS</p> 
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2 col-xs-3 fade about">
                 <p class="text-center p-skills">C#</p> 
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
+            <div class="col-md-2 col-xs-3 fade about">
                 <p class="text-center p-skills">MySQL</p> 
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
-                <p class="text-center p-skills">AndroidStudio</p> 
+            <div class="col-md-2 col-xs-3 fade about">
+                <p class="text-center p-skills">Android</p> 
             </div>
-            <div class="col-xs-3 col-md-2 btn btn-lg btn-Around btn-skills">
-                <p class="text-center p-skills">UML</p> 
+            <div class="col-md-2 col-xs-3 fade about">
+                <p class="text-center p-skills">Red 3G/4G</p> 
+            </div>
+            <div class="col-md-2 col-xs-3 fade about">
+                <p class="text-center p-skills">ReactJs</p> 
+            </div>
+            <div class="col-md-2 col-xs-3 fade about">
+                <p class="text-center p-skills">AJAX|XML</p> 
             </div>
 
            <!--  <div class="col-xs-12 col-md-4">
@@ -160,11 +160,11 @@
             <div class="col-md-12  text-column font">
                 <h2 class=" font ">About me</h2>
                 <h4 class="font">Hi,</h4>
-                <p>I am an experienced Software Developer. With a Engineering degree in Telematics, and hands-on experience using some programming languages to create and implement software applications.</p>
+                <p>With a Engineering degree in Telematics, and hands-on experience using some programming languages to create and implement software applications.</p>
                 <p>
                 I enjoy being challenged and engaging with projects that require me to work outside my comfort and knowledge set, as continuing to learn new languages and development techniques are important to me.</p>
 
-                <p>In my free time I like to play soccer, videogames and workout. </p>
+                <p>I'm proudly from Mexico City and lover of videogames (not surprise here),sports and street art. </p>
 
             </div>
            <!--  <div class="col-md-6 col-md-offset-6 text-column">
@@ -174,6 +174,71 @@
     </div>
 </div>
 
+
+
+    <!-- Numbers -->
+    <div id="numbers" class="section sm-padding">
+
+        <!-- Background Image -->
+  <div class=" background-image-container white-text-container containh bg-img" style="background-image: url('./assets/images/mac.jpg')">
+
+    <div class="overlay overh"></div>
+        <!-- /Background Image -->
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Row -->
+            <div class="row">
+
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-users"></i>
+                        <h3 class="white-text"><span class="counter">4</span></h3>
+                        <span class="white-text">Happy Teams worked</span>
+                    </div>
+                </div>
+                <!-- /number -->
+
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-trophy"></i>
+                        <h3 class="white-text"><span class="counter">5</span></h3>
+                        <span class="white-text">Awards won</span>
+                    </div>
+                </div>
+                <!-- /number -->
+
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-coffee"></i>
+                        <h3 class="white-text"><span class="counter">154</span>K</h3>
+                        <span class="white-text">Cups of Coffee</span>
+                    </div>
+                </div>
+                <!-- /number -->
+
+                <!-- number -->
+                <div class="col-sm-3 col-xs-6">
+                    <div class="number">
+                        <i class="fa fa-file"></i>
+                        <h3 class="white-text"><span class="counter">15</span></h3>
+                        <span class="white-text">Projects completed</span>
+                    </div>
+                </div>
+                <!-- /number -->
+
+            </div>
+            <!-- /Row -->
+
+        </div>
+        <!-- /Container -->
+
+    </div>
+    <!-- /Numbers -->
 
 
 
@@ -191,18 +256,102 @@
 
 
 
-    <div class="col-xs-12 col-md-4">
-      <div class="card">
-        <a href="./maps-FINALIZADO/index.html">
-         <img class="card-img-top" src="./assets/images/Gas.png" alt="Card image cap">   
-        </a>
-        <div class="card-block">
-          <h3 class="card-title text-center font ">Gas station in Mexico</h3>
-          <p class="card-text">Find official gas stations in Mexico and look at their prices searching and filtering by location</p>
-         
-        </div>
-      </div>
-    </div>
+
+                <!-- Work -->
+                <div class="col-xs-12 col-md-4 work">
+                    <img class="img-responsive imgh" src="./assets/images/Gas.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content font">
+                        <span>Developed</span>
+                        <h3 class=" font">API | Fecth API | Async Await | JS classes</h3>
+                        <div class="work-link">
+                            <a href="./Projects/maps-FINALIZADO/index.html"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                     <h3 class="card-title text-center font ">Gas station in Mexico</h3>
+                     <p class="card-text">Find official gas stations in Mexico and look at their prices searching and filtering by location</p>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                <!-- Work -->
+                <div class="col-xs-12 col-md-4 work">
+                    <img class="img-responsive imgh" src="./assets/images/Robots.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>In progress:</span>
+                        <h3 class=" font">React JS | Node JS |JavaScript</h3>
+                        <div class="work-link">
+<!--                          <a href="#"><i class="fa fa-external-link"></i></a>-->
+                        </div>
+                    </div>
+                     <div class="card-block">
+                     <h3 class="card-title text-center font ">Robofriends</h3>
+                     <p class="card-text">(Working) Basic web app with filtering built w/ReactJs</p>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                <!-- Work -->
+                <div class="col-xs-12 col-md-4 work">
+                    <img class="img-responsive imgh" src="./assets/images/Crypto.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Developed</span>
+                        <h3 class=" font" >API | Fecth API | Async Await | JS classes</h3>
+                        <div class="work-link">
+                            <a href="./Projects/criptomonedas-FINALIZADO/index.html"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                     <div class="card-block">
+                     <h3 class="card-title text-center font ">Quote Cryptocurrencies</h3>
+                     <p class="card-text">Quote 100 different cryptocurrencies and compare values with your own currency</p> 
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                                <!-- Work -->
+                <div class="col-xs-12 col-md-4 work">
+                    <img class="img-responsive imgh" src="./assets/images/Portfolio.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Developed</span>
+                        <h3 class=" font">HTML | CSS | JS | Deployed Github </h3>
+                        <div class="work-link">
+                            <a href="#"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                     <h3 class="card-title text-center font ">Online Portfolio</h3>
+                     <p class="card-text">Develop and deploy online portolio (this site)</p>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+                               
+
+                <!-- Work -->
+                <div class="col-xs-12 col-md-4 work">
+                    <img class="img-responsive imgh" src="./assets/images/Events.jpg" alt="">
+                    <div class="overlay"></div>
+                    <div class="work-content">
+                        <span>Developed</span>
+                        <h3 class=" font">API | Fecth API | Async Await | JS classes</h3>
+                        <div class="work-link">
+                            <a href="./Projects/eventos-FINALIZADO/index.html"><i class="fa fa-external-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="card-block">
+                        <h3 class="card-title text-center font ">Events Finder</h3>
+                        <p class="card-text">Find real life events searching by name or city</p>
+                    </div>
+                </div>
+                <!-- /Work -->
+
+
+
+<!-- 
     <div class="col-xs-12 col-md-4">
       <div class="card">
         <img class="card-img-top" src="./assets/images/Events.png" alt="Card image cap">
@@ -258,7 +407,7 @@
       </div>
     </div>
 
-
+ -->
 
 
 
@@ -357,14 +506,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 </div> -->
 
                 <div class="col-md-12" style="text-align: center;">
-                    <h3 class=" animated infinite flash font">Contact me:</h3>
                     <div class="fa-container">
-                            <p class="" aria-hidden="true">Mail: holkan@outlook.es</p>               
-                            <a href="https://www.linkedin.com/in/holkan-jimenez/" class="fa-icon fa-3x btn-link btn-linkedin" title="">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                            
-                            <a href="https://github.com/az-hkn" class=" fa-icon fa-3x btn-link btn-linkedin" title="">   
-                            <i class="fa fa-github" aria-hidden="true"></i> </a>
+                            <!-- footer follow -->
+                    <ul class="footer-follow">
+                    <h3 class=" animated infinite flash font">Contact me:</h3>
+
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                                <p>holkan@outlook.es</p>
+
+                    </ul>
+                    <!-- /footer follow -->
+
+                   
+
                           
                     </div>
                    
@@ -374,14 +529,15 @@ document.addEventListener("DOMContentLoaded", function (event) {
         </div>
     </div>
 </footer>
-<script type="text/javascript" src="./main.faaf51f9.js"></script>
+<script type="text/javascript" src="./js/main.faaf51f9.js"></script>
 
 <script>
 document.addEventListener("DOMContentLoaded", function (event) {
   navbarToggleSidebar();
 });
 </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="./js/personalizedo.js"></script>
 
 
 
